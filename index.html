@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Cuberto | Digital Product Agency</title>
+    <meta name="description" content="Cuberto is a UI/UX design agency based in USA. We specialize in UI/UX design, branding,web, and mobile development">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="shortcut icon" href="./src/images/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,150,100..1000&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="loading-screen">
+        <div class="loader">
+          <div class="loader-1 bar"></div>
+          <div class="loader-2 bar"></div>
+        </div>
+        <div class="counter">
+          <div class="counter-1 digit">
+            <div class="num">0</div>
+            <div class="num num1offset1">1</div>
+          </div>
+          <div class="counter-2 digit">
+            <div class="num">0</div>
+            <div class="num num1offset2">1</div>
+            <div class="num">2</div>
+            <div class="num">3</div>
+            <div class="num">4</div>
+            <div class="num">5</div>
+            <div class="num">6</div>
+            <div class="num">7</div>
+            <div class="num">8</div>
+            <div class="num">9</div>
+            <div class="num">0</div>
+          </div>
+          <div class="counter-3 digit">
+            <div class="num">0</div>
+            <div class="num">1</div>
+            <div class="num">2</div>
+            <div class="num">3</div>
+            <div class="num">4</div>
+            <div class="num">5</div>
+            <div class="num">6</div>
+            <div class="num">7</div>
+            <div class="num">8</div>
+            <div class="num">9</div>
+          </div>
+        </div>
+      </div>
+      <div id="cursor"></div>
+
+
+        <div class="home">
+          <!----- Navigation bar ------>
+        <div id="nav">
+          <img class="logo"
+            src="./src/images/cuberto_logo-removebg-preview.png"
+            alt="Cuberto Logo"
+          />
+          <div id="right">
+            <a id="menu" href="#">menu</a>
+            <i class="ri-menu-unfold-4-line"></i>
+          </div>
+        </div>
+
+        <!----- Hero Section ------>
+        <div id="tophead-container">
+          <div id="tophead-title">
+            <h1>We are a digital</h1>
+          </div>
+          <div id="tophead-title">
+            <div class="video-container">
+              <video src="./src/videos/header.mp4" autoplay loop muted loading="lazy"></video>
+            </div>
+            <h1 ><span class="special-font">design</span> and</h1>
+          </div>
+          <div id="tophead-title">
+            <h1 >motion agency</h1>
+          </div>
+        </div>
+      
+
+      <!----- Show Reel ------>
+      <section id="screenshot">
+        <div id="overlay"></div>
+        <video
+          id="videoPlayer"
+          preload="auto"
+          src="./src/videos/short.mp4"
+          autoplay
+          loop
+          playsinline
+          muted
+          loading="lazy"
+        ></video>
+      </section>
+
+      <!----- Summary ------>
+      <div id="summary-content">
+        <div id="summary-container">
+          <div id="summary-grid-left">
+            <video
+              preload="auto"
+              src="./src/videos/1.mp4"
+              autoplay
+              playsinline
+              loop
+              muted
+              loading="lazy"
+            ></video>
+          </div>
+          <div id="summary-grid-right">
+            <div id="summary-brief">
+              <p>
+                Cuberto is a leading digital product agency focused on branding,
+                UI/UX design, mobile, and web development.
+              </p>
+            </div>
+            <div id="summary-action">
+              <button class="button">How we work</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----- Featured Projects ------>
+      <div id="main-container">
+        <section id="featured">
+          <div id="featured-filled">
+            <div id="featured-head">
+              <h1>Featured</h1>
+              <div id="projects">
+                <div id="video-container">
+                  <video
+                    preload="auto"
+                    src="./src/videos/forFeatured.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+                <h1>projects</h1>
+              </div>
+            </div>
+          <div id="featured-items">
+            <div id="featured-col-left">
+              <div id="featured-media-container1">
+                <div id="preview-media">
+                  <img src="./src/images/left-images/left1.jpg" alt="Punto Pago Image" loading="lazy" />
+                  <video
+                    preload="none"
+                    src="./src/videos/left-col/cover1.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+                <h3>
+                  <b>Punto Pago</b> - The First Super-App in Latin America
+                </h3>
+              </div>
+              <div id="featured-media-container2">
+                <div id="preview-media">
+                  <img src="./src/images/left-images/left2.jpg" alt="Riyadh Image" loading="lazy" />
+                  <video
+                    preload="none"
+                    src="./src/videos/left-col/cover2.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+                <h3>
+                  <b>Riyadh</b>- Official Website of Riyadh, Saudi Arabia's
+                  Capital
+                </h3>
+              </div>
+              <div id="featured-media-container3">
+                <div id="preview-media">
+                  <img src="./src/images/left-images/left3.jpg" alt="Qvino Image" loading="lazy"/>
+                  <video
+                    preload="none"
+                    src="./src/videos/left-col/cover3.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+                <h3>
+                  <b>Qvino</b> - Wine marketplace with interactive learning
+                </h3>
+              </div>
+              <div id="featured-media-container4">
+                <div id="preview-media">
+                  <img src="./src/images/left-images/left4.jpg" alt="Zelt Image" loading="lazy" />
+                  <video src="./src/videos/left-col/cover4.mp4" loading="lazy" autoplay
+                  loop
+                  muted
+                  loading="lazy"></video>
+                </div>
+                <h3>
+                  <strong>Zelt</strong> - Run HR, IT & Finance in one place
+                </h3>
+              </div>
+              <div id="featured-media-container5">
+                <div id="preview-media">
+                  <img src="./src/images/left-images/left5.jpg" alt="Cisco Image" loading="lazy" />
+                  <video loading="lazy" src="./src/videos/left-col/cover5.mp4" autoplay
+                  loop
+                  muted
+                  loading="lazy"></video>
+                </div>
+                <h3><strong>Cisco</strong> - Cloud based Network Management</h3>
+              </div>
+            </div>
+            <div id="featured-col-right">
+              <div id="media-container1">
+                <div id="media">
+                  <img src="./src/images/right-images/right1.jpg" alt="Kelvin Zero Image" loading="lazy"/>
+                  <video
+                    preload="none"
+                    src="./src/videos/right-col/cover1.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+                <h3>
+                  Kelvin Zero - A digital product for passwordless
+                  authentication
+                </h3>
+              </div>
+              <div id="media-container2">
+                <div id="media">
+                  <img src="./src/images/right-images/right2.jpg" alt="Magma Image" loading="lazy" />
+                  <video
+                    preload="none"
+                    src="./src/videos/right-col/cover2.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+                <h3>Magma - The ultimate tool for building in the Web3 era</h3>
+              </div>
+              <div id="media-container3">
+                <div id="media">
+                  <img src="./src/images/right-images/right3.jpg" alt="FlipaClip Image" loading="lazy" />
+                  <video
+                    preload="none"
+                    src="./src/videos/right-col/cover3.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+                <h3>FlipaClip - The best tool for stop-motion animation</h3>
+              </div>
+              <div id="media-container4">
+                <div id="media">
+                  <img src="./src/images/right-images/right4.jpg" alt="Potion Image" loading="lazy" />
+                  <video
+                    preload="none"
+                    src="./src/videos/right-col/cover4.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+                <h3>Potion - Sales tool for increasing conversions</h3>
+              </div>
+              <div id="media-container5">
+                <div id="media">
+                  <img src="./src/images/right-images/right5.jpg" alt="Ferrumpipe Image" loading="lazy" />
+                  <video
+                    preload="none"
+                    src="./src/videos/right-col/cover5.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+                <h3>Ferrumpipe - Galvanized steel metal frame manufacturer</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+      </div>
+
+      <!----- Philosophy ------>
+      <section id="philosophy">
+          <div id="philosophy-container">
+            <div id="philosophy-details">
+              <div class="heading">
+                <h1>Our</h1>
+                <h2>philosophy</h2>
+              </div>
+            </div>
+            <div id="philosophy-content">
+                <div class="philosophy-video">
+                  <video
+                    preload="auto"
+                    src="./src/videos/philosophy.mp4"
+                    autoplay
+                    loop
+                    muted
+                    loading="lazy"
+                  ></video>
+                </div>
+              
+                <div class="philosophy-summary">
+                  <p>
+                    In our team, developers work alongside designers, strategists
+                    and analysts. Cuberto doesn't do cookie-cutter solutions and we
+                    build products exactly as they were during the design phase, no
+                    shortcuts or simplifications.
+                  </p>
+                  <p>
+                    We're driven by user-centered design that drives productivity
+                    and increases revenue. Our expertise and ingenuity are
+                    remarkable, yet we always strive to outdo and outperform our
+                    previous achievements.
+                  </p>
+                </div>
+              
+            </div>
+          </div>
+      </section>
+
+      <!----- Development and Design ------>
+      <section id="DandD">
+          <div id="DandD-container">
+            <div class="header">
+              <h1>Development </br> and design</h1>
+              <h2>resources</h2>
+            </div>
+          </div>
+          <div id="wrapper">
+            <div class="card">
+              <img src="./src/images/DandD/1.png" draggable = 'false' loading="lazy" alt="">
+              <h3>How to Make Epic Websites // Frontend development</h3>
+            </div>
+            <div class="card">
+              <img src="./src/images/DandD/2.png" draggable = 'false' loading="lazy" alt="">
+              <h3>Cuberto Mouse Follower</h3>
+            </div>
+            <div class="card">
+              <img src="./src/images/DandD/3.jpg" draggable = 'false' loading="lazy" alt="">
+              <h3>Making Switch with SVG Distortion Effect</h3>
+            </div>
+            <div class="card">
+              <img src="./src/images/DandD/4.png" draggable = 'false' loading="lazy" alt="">
+              <h3>UI/UX Design Tips</h3>
+            </div>
+            <div class="card">
+              <img src="./src/images/DandD/5.png" draggable = 'false' loading="lazy" alt="">
+              <h3>Liquid Navigation in After Effects</h3>
+            </div>
+            <div class="card">
+              <img src="./src/images/DandD/6.png" draggable = 'false' loading="lazy" alt="">
+              <h3>How to prepare your design portfolio on Behance</h3>
+            </div>
+          </div>
+          <div id="DandD-description">
+            <div id="DandD-heading">
+            <h2>We regularly release design courses, offer advice to newbie designers, walk you through creating awesome effects, and share source files.</h2>
+            <div class="DandD-button">
+              <button class="button2">VIEW ALL RESOURCES</button>
+            </div>
+            </div>
+          </div>
+      </section>
+        
+      <!----- New Day ------>
+      <div id="newday">
+        <div id="move">
+          <div class="marque">
+            <h1>New Day -&nbsp
+              <span class="inspo">New Inspo</sapn>
+            </h1>
+            <div class="marque-container">
+              <video loading="lazy" preload="auto" src="./src/videos/newday.mp4" autoplay loop muted></video>
+            </div>
+          </div>
+          <div class="marque">
+            <h1>New Day -&nbsp
+              <span class="inspo">New Inspo</sapn>
+            </h1>
+            <div class="marque-container">
+              <video loading="lazy" preload="auto" src="./src/videos/newday.mp4" autoplay loop muted></video>
+            </div>
+          </div>
+          <div class="marque">
+            <h1>New Day -&nbsp
+              <span class="inspo">New Inspo</sapn>
+            </h1>
+            <div class="marque-container">
+              <video loading="lazy" preload="auto" src="./src/videos/newday.mp4" autoplay loop muted></video>
+            </div>
+          </div>
+          <div class="marque">
+            <h1>New Day -&nbsp
+              <span class="inspo">New Inspo</sapn>
+            </h1>
+            <div class="marque-container">
+              <video loading="lazy" preload="auto" src="./src/videos/newday.mp4" autoplay loop muted></video>
+            </div>
+          </div>
+          <div class="marque">
+            <h1>New Day -&nbsp
+              <span class="inspo">New Inspo</sapn>
+            </h1>
+            <div class="marque-container">
+              <video loading="lazy" preload="auto" src="./src/videos/newday.mp4" autoplay loop muted></video>
+            </div>
+          </div>
+        </div>
+        <div id="image-slider">
+          <div class="image1">
+            <img src="./src/images/newday/1.jpg" draggable = 'false' loading="lazy" alt="">
+          
+          </div>
+          <div class="image2">
+            <img src="./src/images/newday/2.png" draggable = 'false' loading="lazy" alt="">
+          </div>
+          <div class="image3">
+            <img src="./src/images/newday/3.jpg" draggable = 'false' loading="lazy" alt="">
+          </div>
+          <div class="image4">
+            <img src="./src/images/newday/4.png" draggable = 'false' loading="lazy" alt="">
+          </div>
+          <div class="image5">
+            <img src="./src/images/newday/5.jpg" draggable = 'false' loading="lazy" alt="">
+          </div>
+          <div class="image6">
+            <img src="./src/images/newday/6.png" draggable = 'false' loading="lazy" alt="">
+          </div>
+          <div class="image7">
+            <img src="./src/images/newday/7.jpg" draggable = 'false' loading="lazy" alt="">
+          </div>
+          <div class="image8">
+            <img src="./src/images/newday/8.png" draggable = 'false' loading="lazy" alt="">
+          </div>
+          <div class="image9">
+            <img src="./src/images/newday/9.jpg" draggable = 'false' loading="lazy" alt="">
+          </div>
+        </div>
+      </div>
+    
+
+      <!----- Footer ------>
+    <footer id="footer">
+      <div id="head-move">
+        <div class="follow-us">
+          <h1>Follow Us</h1>
+         <div class="image-container">
+          <img src="./src/images/circle.svg" loading="lazy" alt="">
+          <l-helix id="helix-icon" size="50" speed="2" color="black" ></l-helix>
+         </div>
+        </div>
+        <div class="follow-us">
+          <h1>Follow Us</h1>
+         <div class="image-container">
+          <img src="./src/images/circle.svg" loading="lazy" alt="">
+          <l-helix  size="50" speed="2" color="black" ></l-helix>
+         </div>
+        </div>
+        <div class="follow-us">
+          <h1>Follow Us</h1>
+         <div class="image-container">
+          <img src="./src/images/circle.svg" loading="lazy" alt="">
+          <l-helix  size="50" speed="2" color="black" ></l-helix>
+         </div>
+        </div>
+        <div class="follow-us">
+          <h1>Follow Us</h1>
+         <div class="image-container">
+          <img src="./src/images/circle.svg" loading="lazy" alt="">
+          <l-helix  size="50" speed="2" color="black" ></l-helix>
+         </div>
+        </div>
+        <div class="follow-us">
+          <h1>Follow Us</h1>
+         <div class="image-container">
+          <img src="./src/images/circle.svg" loading="lazy" alt="">
+          <l-helix  size="50" speed="2" color="black" ></l-helix>
+         </div>
+        </div>
+      </div>
+      <div class="social-outro">
+        <div class="box"
+            data-image="https://images.unsplash.com/photo-1688362809005-e1d27bf427ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+            <h3>Instagram</h3>
+            <div class="arrow">
+              <h3>↗</h3>
+            </div>
+        </div>
+        <div class="box"
+            data-image="https://images.unsplash.com/photo-1688232543149-5602b136ba11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDExfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
+            <h3>LinkedIn</h3>
+            <div class="arrow">
+              <h3>↗</h3>
+            </div>
+        </div>
+        <div class="box"
+            data-image="https://images.unsplash.com/photo-1688103920333-117afda88518?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
+            <h3>Dribbble</h3>
+            <div class="arrow">
+              <h3>↗</h3>
+            </div>
+        </div>
+        <div class="box"
+            data-image="https://images.unsplash.com/photo-1687913161653-7cddb0ba09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80">
+            <h3>Github</h3>
+            <div class="arrow">
+              <h3>↗</h3>
+            </div>
+        </div>
+        <div class="box"
+            data-image="https://images.unsplash.com/photo-1668613963719-669ea69ed8e0?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&q=80">
+            <h3>Youtube</h3>
+            <div class="arrow">
+              <h3>↗</h3>
+            </div>
+        </div>
+        <div class="box"
+            data-image="https://images.unsplash.com/photo-1686904423955-b928225c6488?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDg1fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
+            <h3>Behance</h3>
+            <div class="arrow">
+              <h3>↗</h3>
+            </div>
+        </div>
+        <div class="box"
+            data-image="https://images.unsplash.com/photo-1611934786226-7caa0c3654a9?q=80&w=1874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&q=60">
+            <h3>Twitter</h3>
+            <div class="arrow">
+              <h3>↗</h3>
+            </div>
+        </div>
+    </div>
+    <div id="footer-details">
+      <div id="footer-left">
+        <div class="details">
+          <h1>Let's make something great together</h1>
+        <p>
+         <button class="button2">INFO@CUBERDD.COM</button>
+        </p>
+        </div>
+      </div>
+      <div id="footer-right">
+        <div class="right-1">
+          <h1><span class="small-text">MAIN OFFICE</span>Na Perstyne 342/1, 11000 Prague</h1>
+        <p>
+          <button class="button2">+1 308 579 3665</button>
+        </p>
+        </div>
+        <div class="right-2">
+          <h1><span class="small-text">SECOND OFFICE</span> 1-3-1 Marunouchi, Chiyoda-ku, Tokyo</h1>
+        <p>
+          <button class="button2">+1 308 579 3665</button>
+        </p>
+      </div>
+      </div>
+    </div>
+      <div class="rope-container">
+        <video src="./src/videos/ropes.mp4" autoplay loop muted></video>
+        <div class="rope-content">
+          <h1>Have</br><span class="special-font">an idea?</span></h1>
+          <button class="button3">TELL US</button>
+          <div class="contact-details">
+            <div class="contacts">
+              <button class="button2">INFO@CUBERDD.COM</button>
+              <button class="button2">+1 308 579 3665</button>
+            </div>
+            <h3>PRIVACY POLICY</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+        </div>
+    
+    </div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/helix.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
